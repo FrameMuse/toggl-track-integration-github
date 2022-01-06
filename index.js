@@ -28,7 +28,7 @@ togglbutton.render('#partial-discussion-sidebar', { observe: true }, function (
 
   let description = titleElem.textContent;
   if (numElem !== null) {
-    description = rep + numElem.textContent + ': ' + description.trim();
+    description = location.href
   }
 
   const div = document.createElement('div');
